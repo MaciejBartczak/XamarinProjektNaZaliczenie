@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="MainBackground">#0277BD</color>
+  <color name="SMSBackground">#5D4037</color>
+  <color name="PhoneBackground">#8E24AA</color>
+  <color name="WebViewerBackground">#388E3C</color>
+</resources>

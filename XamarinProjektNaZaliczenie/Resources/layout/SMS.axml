@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SMSBackground">
+    <Button
+        android:text="@string/SMSExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSExitButton"
+        android:layout_marginBottom="5dp" />
+    <TextView
+        android:text="@string/SMSReceiver"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSReceiverText" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSReceiverInput"
+        android:hint="@string/SMSReceiverHint" />
+    <TextView
+        android:text="@string/SMSContent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSContentText" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSContentInput"
+        android:hint="@string/SMSContentHint" />
+    <Button
+        android:text="@string/SMSSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SMSSendButton" />
+</LinearLayout>

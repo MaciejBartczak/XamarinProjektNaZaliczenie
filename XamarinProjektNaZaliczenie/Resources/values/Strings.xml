@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">XamarinProjektNaZaliczenie</string>
+  
+  <!--
+          MAIN
+  -->
+  
+  <string name="MainSMS">SMS</string>
+  <string name="MainWebViewer">WebViewer</string>
+  <string name="MainPhone">Phone</string>
+  <string name="MainNotepad">Notepad</string>
+  <string name="MainEmpty"></string>
+  <string name="MainEmpty2"></string>
+
+  <!--
+          SMS
+  -->
+
+  <string name="SMSReceiver">Receiver</string>
+  <string name="SMSContent">Content</string>
+  <string name="SMSReceiverHint">Type here a Receiver\'s number</string>
+  <string name="SMSContentHint">Type here a content of a message</string>
+  <string name="SMSSend">Send</string>
+  <string name="SMSExit">Back to main menu</string>
+  
+<!--
+          Phone
+  -->
+
+  <string name="PhoneNumberText">Number:</string>
+  <string name="PhoneNumberHint">Type a number here</string>
+  <string name="PhoneCall">Call</string>
+  <string name="PhoneExit">Back to main menu</string>
+
+  <!--
+          WebViewer
+  -->
+
+  <string name="WebViewerHint">Type an address here</string>
+  <string name="WebViewerSearch">Search</string>
+  <string name="WebViewerExit">Back to main menu</string>
+  
+</resources>
